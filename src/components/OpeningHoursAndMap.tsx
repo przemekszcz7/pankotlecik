@@ -59,13 +59,8 @@ export const OpeningHoursAndMap: React.FC = () => {
                 {/* Phone Card */}
                 <a 
                   href="tel:+48455448003"
-                  className="bg-white border border-border hover:border-gold/30 p-4 rounded-xl flex items-center space-x-3.5 transition-colors group"
+                  className="bg-white border border-border hover:border-gold/30 p-5 rounded-xl block text-left transition-colors group"
                 >
-                  <div className="w-10 h-10 rounded-lg bg-gold/15 flex items-center justify-center text-gold group-hover:bg-gold group-hover:text-cream transition-colors">
-                    <svg className="w-5 h-5 fill-none stroke-currentColor stroke-2" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.387a12.035 12.035 0 01-7.108-7.108c-.145-.44.02-.927.406-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
-                    </svg>
-                  </div>
                   <div>
                     <span className="text-[10px] font-mono uppercase tracking-wider text-text-muted block">Zadzwoń do nas</span>
                     <span className="font-mono text-navy font-semibold text-sm">+48 455 448 003</span>
@@ -75,16 +70,11 @@ export const OpeningHoursAndMap: React.FC = () => {
                 {/* Email Card */}
                 <a 
                   href="mailto:pan.kotlecik108@gmail.com"
-                  className="bg-white border border-border hover:border-gold/30 p-4 rounded-xl flex items-center space-x-3.5 transition-colors group"
+                  className="bg-white border border-border hover:border-gold/30 p-5 rounded-xl block text-left transition-colors group"
                 >
-                  <div className="w-10 h-10 rounded-lg bg-gold/15 flex items-center justify-center text-gold group-hover:bg-gold group-hover:text-cream transition-colors">
-                    <svg className="w-5 h-5 fill-none stroke-currentColor stroke-2" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25H4.5a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5H4.5a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
-                    </svg>
-                  </div>
                   <div>
                     <span className="text-[10px] font-mono uppercase tracking-wider text-text-muted block">Napisz e-mail</span>
-                    <span className="font-sans text-navy font-semibold text-xs truncate max-w-[150px] block">pan.kotlecik108@gmail.com</span>
+                    <span className="font-sans text-navy font-semibold text-xs truncate block">pan.kotlecik108@gmail.com</span>
                   </div>
                 </a>
               </div>

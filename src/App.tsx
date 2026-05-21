@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { 
   HeroKotletIllustration, 
-  PotatoIllustration, 
-  CrossedCutleryIllustration 
+  PotatoIllustration 
 } from "./components/FoodIllustrations";
 import { ChalkboardSection } from "./components/ChalkboardSection";
 import { MenuSection } from "./components/MenuSection";
@@ -287,11 +286,6 @@ export default function App() {
       <footer className="bg-navy-dark text-white border-t-2 border-[#1E3A5F] pt-16 pb-12 px-4 md:px-8 relative overflow-hidden apron-bg">
         <div className="max-w-6xl mx-auto flex flex-col items-center text-center space-y-8">
           
-          {/* Crossed cutlery elegant drawing */}
-          <div className="w-16 h-16 flex items-center justify-center text-gold-light">
-            <CrossedCutleryIllustration className="w-full h-full text-gold-light" />
-          </div>
-
           {/* Slogan details and handwritten logo - slightly larger offset */}
           <div className="space-y-3">
             <span className="font-handwritten text-4xl sm:text-5xl text-cream-deep inline-block mb-1 font-bold">
