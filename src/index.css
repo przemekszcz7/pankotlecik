@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=DM+Mono:wght@400;500&family=Nunito:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Nunito", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-mono: "DM Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-handwritten: "Caveat", cursive;
+
+  --color-navy: #1E3A5F;
+  --color-navy-mid: #2A527A;
+  --color-navy-light: #3D6E9A;
+  --color-navy-pale: #C5D5E8;
+  --color-cream: #FAF6EE;
+  --color-cream-deep: #EAE0CC;
+  --color-gold: #C4922A;
+  --color-gold-light: #E8B86A;
+  --color-gold-pale: #F5E4C0;
+  --color-text: #1A2A1A;
+  --color-text-muted: #6A5E48;
+  
+  --animate-steam-1: steam1 5s ease-in-out infinite;
+  --animate-steam-2: steam2 5s ease-in-out infinite;
+  --animate-float-kotlet: floatKotlet 6s ease-in-out infinite;
+}
+
+@keyframes steam1 {
+  0% {
+    transform: translateY(0) scaleX(1);
+    opacity: 0;
+  }
+  15% {
+    opacity: 0.6;
+  }
+  50% {
+    transform: translateY(-20px) scaleX(1.1);
+    opacity: 0.3;
+  }
+  100% {
+    transform: translateY(-40px) scaleX(0.8);
+    opacity: 0;
+  }
+}
+
+@keyframes steam2 {
+  0% {
+    transform: translateY(0) scaleX(0.9) skewX(-2deg);
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.5;
+  }
+  60% {
+    transform: translateY(-25px) scaleX(1.15) skewX(3deg);
+    opacity: 0.2;
+  }
+  100% {
+    transform: translateY(-45px) scaleX(0.7) skewX(-1deg);
+    opacity: 0;
+  }
+}
+
+@keyframes floatKotlet {
+  0% {
+    transform: translateY(-4px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-4px);
+  }
+}
+
+/* Custom Human-Crafted Artisan Textures */
+.linen-bg {
+  background-color: #FAF6EE;
+  background-image: 
+    linear-gradient(rgba(30, 58, 95, 0.022) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(30, 58, 95, 0.022) 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+.apron-bg {
+  background-color: #1E3A5F;
+  background-image: 
+    linear-gradient(rgba(250, 246, 238, 0.035) 1px, transparent 1px);
+  background-size: 100% 4px;
+}
+
+/* Beautiful custom divider dots */
+.divider-dots {
+  font-family: "Playfair Display", serif;
+  letter-spacing: 0.5em;
+  color: #C4922A;
+}
+
+/* HTML and body default styling */
+body {
+  background-color: #FAF6EE;
+  color: #1A2A1A;
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}

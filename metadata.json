@@ -1,0 +1,6 @@
+{
+  "name": "Pan Kotlecik",
+  "description": "Najpyszniejsze domowe obiady w Warszawie. Specjalność to chrupiące, pieczone kotlety i rozgrzewające zupy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
